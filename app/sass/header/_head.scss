@@ -46,6 +46,12 @@
           margin-right: 60px;
           &:last-child {
             margin-right: 0;
+
+          }
+          &:hover .submenu{
+            display: block;
+            transition: 300ms ease;
+
           }
           a {
             color: #5c6672;
@@ -53,7 +59,27 @@
             text-decoration: underline;
             &:hover {
               color: #1f314b;
-              transition: 300ms ease;
+              transition: 500ms ease;
+            }
+
+          }
+        }
+        .submenu{
+          list-style: none;
+          padding: 20px 20px;
+          margin: 0;
+          display: none;
+          float: left;
+          position: absolute;
+          z-index: 3;
+          background: #fff;
+          width: 180px;
+          li{
+            padding: 0;
+            margin: 0;
+            a{
+              padding: 0;
+              margin: 0;
             }
           }
         }
