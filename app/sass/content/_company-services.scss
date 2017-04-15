@@ -102,9 +102,10 @@
     position: relative;
     float: left;
     display: block;
+    margin-bottom: 60px;
     &__item {
       width: 22%;
-      margin: 0 15px;
+      margin: 0 17px;
       float: left;
       position: relative;
       img {
@@ -116,7 +117,7 @@
         display: block;
         position: relative;
         float: left;
-        width: 150px;
+        width: 160px;
         padding-left: 20px;
         h3 {
           font-size: 18px;
@@ -125,7 +126,7 @@
           font-family: $ProximaSemibold;
         }
         p{
-
+        font-size: 14px;
         }
       }
 
