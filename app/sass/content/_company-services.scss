@@ -1,14 +1,14 @@
-.content{
+.content {
   width: 100%;
   position: relative;
   display: block;
   float: left;
-  &__title{
+  &__title {
     width: 100%;
     position: relative;
     display: block;
     float: left;
-    h1{
+    h1 {
       color: #1f314b;
       font-size: 28px;
       font-family: $ProximaSemibold;
@@ -16,36 +16,36 @@
       margin: 70px 0 50px 0;
     }
   }
-  &__wrapper{
+  &__wrapper {
     display: block;
     position: relative;
     float: left;
     width: 100%;
-    &__grid{
+    &__grid {
       width: 30%;
       position: relative;
       float: left;
       margin: 15px 15px;
-      img{
+      img {
         object-fit: contain;
         width: 100%;
 
       }
-      h3{
+      h3 {
         color: #1f314b;
         font-size: 18px;
         font-family: $ProximaSemibold;
         margin-top: 20px;
         margin-bottom: 15px;
       }
-      p{
+      p {
         color: #5c6672;
         font-size: 14px;
         margin-top: 0px;
       }
     }
   }
-  &__about-quote{
+  &__about-quote {
     display: block;
     position: relative;
     float: left;
@@ -54,13 +54,13 @@
     height: 345px;
     margin-top: 50px;
     margin-bottom: 60px;
-    &__title{
+    &__title {
       width: 100%;
       float: left;
       position: relative;
       color: #fff;
 
-      h1{
+      h1 {
         padding-top: 40px;
         padding-left: 30px;
         margin: 0;
@@ -70,32 +70,66 @@
         font-size: 28px;
       }
     }
-    &__text{
+    &__text {
       width: 100%;
       float: left;
       position: relative;
       padding: 10px 30px;
       box-sizing: border-box;
-      p{
+      p {
         font-size: 14px;
         width: 100%;
         color: #fff;
         margin: 15px 0;
       }
     }
+    button {
+      width: 150px;
+      height: 40px;
+      margin-left: 30px;
+      background-color: #fecc53;
+      border: 0;
+      outline: 0;
+      cursor: pointer;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-family: $ProximaSemibold;
+      margin-top: 10px;
+    }
   }
-  button{
-    width: 150px;
-    height: 40px;
-    margin-left: 30px;
-    background-color: #fecc53;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-family: $ProximaSemibold;
-    margin-top: 10px;
+  &__items {
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    &__item {
+      width: 22%;
+      margin: 0 15px;
+      float: left;
+      position: relative;
+      img {
+        display: block;
+        float: left;
+        height: 70px;
+      }
+      .item-wrap{
+        display: block;
+        position: relative;
+        float: left;
+        width: 150px;
+        padding-left: 20px;
+        h3 {
+          font-size: 18px;
+          color: #1f314b;
+
+          font-family: $ProximaSemibold;
+        }
+        p{
+
+        }
+      }
+
+    }
   }
 
 }
