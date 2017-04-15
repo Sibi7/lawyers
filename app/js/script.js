@@ -1,5 +1,26 @@
 $(document).ready(function () {
-
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav: true,
+        dots: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:true
+            }
+        }
+    })
     // /*header mobile menu*/
     // var pull = $('#header-menu'),//блок с кнопкой мобильного меню
     //     menu = $('.nav-top'),//главное меню
@@ -24,7 +45,7 @@ $(document).ready(function () {
     // });
     // /*close header mobile menu*/
 
-    
+
     // /*yandex map*/
     // var map = new Map();
     // map.init({
@@ -55,7 +76,7 @@ $(document).ready(function () {
     //     ]
     // });
     // /*close yandex map*/
-    
+
     // /*top-form validation*/
     // if (document.getElementById('top-form')) {
     //     var validation = new Validation();
