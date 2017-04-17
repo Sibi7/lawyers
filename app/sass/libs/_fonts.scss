@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&subset=cyrillic-ext');
 
 $ProximaSemibold: 'ProximaNovaSemibold';
+$GeomBold: 'Geometria-Bold';
 
 @font-face {
   font-family: 'ProximaNovaSemibold';
@@ -9,4 +10,12 @@ $ProximaSemibold: 'ProximaNovaSemibold';
   url('../fonts/ProximaNova/ProximaNovaCondensedSemibold.woff') format('woff'),
   url('../fonts/ProximaNova/ProximaNovaCondensedSemibold.ttf') format('truetype'),
   url('../fonts/ProximaNova/ProximaNovaCondensedSemibold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Geometria-Bold';
+  src: url('../fonts/Geometria/Geometria-Bold.eot') format('embedded-opentype'),
+  url('../fonts/Geometria/Geometria-Bold.woff') format('woff'),
+  url('../fonts/Geometria/Geometria-Bold.ttf') format('truetype'),
+  url('../fonts/Geometria/Geometria-Bold.svg') format('svg');
 }

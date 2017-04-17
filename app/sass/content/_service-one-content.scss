@@ -80,21 +80,26 @@
   &__about-services-l {
     width: 365px;
     padding-left: 30px;
-    padding-right: 30px;
     box-sizing: border-box;
     position: relative;
     float: left;
     display: block;
+    padding-right: 15px;
     img {
       width: 100%;
-      object-fit: contain;
+      object-fit: cover;
+
     }
   }
   &__about-services-r {
     display: block;
     float: left;
     position: relative;
-    width: 750px;
+    margin-bottom: 60px;
+    width: 834px;
+    padding-left: 15px;
+    padding-right: 30px;
+    box-sizing: border-box;
     p{
       font-size: 14px;
       color: #5c6672;
