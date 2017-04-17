@@ -1,0 +1,18 @@
+.services-two{
+  width: 100%;
+  float: left;
+  position: relative;
+  display: block;
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .overlay {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    background: #f4f4f4;
+  }
+}
