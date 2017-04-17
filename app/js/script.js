@@ -20,6 +20,29 @@ $(document).ready(function () {
                 loop:true
             }
         }
+    });
+
+    $('.owl-carousel-1').owlCarousel({
+        loop:true,
+        margin:10,
+        nav: true,
+        dots: true,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:1,
+                nav:false
+            },
+            1000:{
+                items:1,
+                nav:true,
+                loop:true
+            }
+        }
     })
     // /*header mobile menu*/
     // var pull = $('#header-menu'),//блок с кнопкой мобильного меню
