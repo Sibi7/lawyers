@@ -1,21 +1,186 @@
 @media only screen and (max-width: 1024px) {
-	
+
 }
 
 @media only screen and (max-width: 980px) {
-	
+  .mnu{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 770px) {
-	
+
+  .mnu{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 736px) {
 	
 }
 
-@media only screen and (max-width: 500px) {
-	
+@media only screen and (max-width: 567px) {
+  .header__wrapper__logo {
+    margin-left: 20px;
+    margin-top: 14px;
+    width: 70%;
+  }
+
+  .hamburger-box {
+    margin-top: 20px;
+  }
+
+  .header__wrapper__contacts {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 10px;
+    z-index: 1;
+    margin-top: 15px;
+  }
+  .header__wrapper__menu {
+    z-index: 1;
+    width: 100%;
+  }
+  .header__wrapper__menu ul li {
+    margin-right: 0;
+    width: 48%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .header__wrapper__menu ul {
+    margin: 0 0;
+    width: 100%;
+  }
+  .slider, .slider__wrapper {
+    margin-top: 25px;
+  }
+  .header__wrapper__contacts p {
+    margin-left: 20px;
+  }
+
+  .header__wrapper__contacts a {
+    width: 114px;
+    margin-right: 20px;
+  }
+  .slider__wrapper__photo img {
+    height: initial;
+  }
+  .slider__wrapper__text {
+    width: 100%;
+  }
+  .slider__wrapper__photo {
+    width: 50%;
+    float: left;
+    position: relative;
+    display: none;
+    height: 435px;
+    overflow: hidden;
+  }
+  .slider__wrapper__text h1 {
+    font-size: 41px;
+  }
+  .slider__wrapper__text h3 {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .slider__wrapper__text h1, .slider__wrapper__text p {
+    text-align: center;
+    margin: 0;
+  }
+  .slider .owl-dots {
+    bottom: -89px;
+  }
+  .slider .owl-nav {
+    margin-top: 16%;
+  }
+  .content__title h1 {
+    font-size: 23px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content__wrapper__grid {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .content__wrapper__grid p {
+    text-align: center;
+  }
+  .content__wrapper__grid h3 {
+    text-align: center;
+  }
+
+  .content__about-quote {
+    height: 100%;
+  }
+  .content__about-quote__title h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+  .content__about-quote__text {
+    text-align: center;
+  }
+  .content__about-quote button {
+    width: 150px;
+    margin: 30px auto;
+    display: block;
+    height: 40px;
+  }
+  .content__items__item {
+    width: 100%;
+    margin: 20px 22px;
+  }
+  .content__items__item img {
+    height: inherit;
+    width: 45px;
+  }
+  .content__items__item:first-child {
+    margin: 22px 22px;
+  }
+  .footer {
+    height: 100%;
+    width: 100%;
+  }
+  .footer__grid {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .footer__grid__item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .footer__grid__item h1 {
+    text-align: center;
+  }
+  .footer__grid__item p {
+    text-align: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .footer__grid__item:last-child {
+    width: 100%;
+  }
+  .footer__grid__item-r {
+    margin-right: 0;
+    width: 100%;
+  }
+  .footer__grid__item-r p {
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+  }
+  .footer__grid__item-r a {
+    text-align: center;
+  }
+  .footer__grid .form-footer input {
+    height: 40px;
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 320px) {

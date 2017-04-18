@@ -45,29 +45,29 @@ $(document).ready(function () {
         }
     })
 
-    // /*header mobile menu*/
-    // var pull = $('#header-menu'),//блок с кнопкой мобильного меню
-    //     menu = $('.nav-top'),//главное меню
-    //     button = pull.find('.mob-btn');//кнопка показать/скрыть
-    // menuHeight = menu.height();
-    //
-    // $(pull).on('click', function (e) {//при клике на мобильное меню
-    //     e.preventDefault();//убираем свойство ссылки по умолчанию
-    //     if (button.hasClass('show')) {//при наличии у кнопки активного класса
-    //         button.removeClass('show');//убираем данный класс
-    //         menu.slideUp('fast');//скрываем меню
-    //     } else {//при отсутсвии активного класса
-    //         button.addClass('show');//добовляем его кнопке
-    //         menu.slideDown('fast');//показываем меню
-    //     }
-    // });
-    // $(document).on('click', function (e) {//при клике на поле
-    //     if ($(e.target).closest('.header__navbar').length != 1) {//не содержащего навигационную панель
-    //         $('.nav-top').slideUp('fast');//скрываем меню
-    //         $('.mob-btn').removeClass('show');//убираем у кнопки активный класс
-    //     }
-    // });
-    // /*close header mobile menu*/
+    /*header mobile menu*/
+    var pull = $('.hamburger'),//блок с кнопкой мобильного меню
+        menu = $('.mnu'),//главное меню
+        button = pull.find('.hamburger-box');//кнопка показать/скрыть
+    menuHeight = menu.height();
+
+    $(pull).on('click', function (e) {//при клике на мобильное меню
+        e.preventDefault();//убираем свойство ссылки по умолчанию
+        if (button.hasClass('show')) {//при наличии у кнопки активного класса
+            button.removeClass('show');//убираем данный класс
+            menu.slideUp('fast');//скрываем меню
+        } else {//при отсутсвии активного класса
+            button.addClass('show');//добовляем его кнопке
+            menu.slideDown('fast');//показываем меню
+        }
+    });
+    $(document).on('click', function (e) {//при клике на поле
+        if ($(e.target).closest('').length != 1) {//не содержащего навигационную панель
+            $('').slideUp('fast');//скрываем меню
+            $('.mnu').removeClass('show');//убираем у кнопки активный класс
+        }
+    });
+    /*close header mobile menu*/
 
     // /*top-form validation*/
     // if (document.getElementById('top-form')) {
