@@ -1,0 +1,141 @@
+.about{
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__team-wrapper{
+
+    width: 100%;
+    float: left;
+    position: relative;
+    display: block;
+    &__item{
+      width: 25%;
+      float: left;
+      position: relative;
+      display: block;
+      margin-bottom: 60px;
+      text-align: center;
+      &__circle{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 2px #fecc53 solid;
+        margin: 0 auto;
+        text-align: center;
+        img{
+          object-fit: contain;
+          padding: 9px;
+        }
+
+      }
+      h4{
+        font-size: 18px;
+        color: #1f314b;
+      }
+      p{
+        font-size: 14px;
+        color: #5c6672;
+      }
+    }
+  }
+  &__text{
+    width: 100%;
+    position: relative;
+    float: left;
+    display: block;
+    margin-bottom: 40px;
+    p{
+      color: #5c6672;
+      font-size: 14px;
+      margin: 20px 0px;
+    }
+    p:first-child{
+      margin-top: 0;
+    }
+  }
+  &__achievements{
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 70px;
+    &__wrapper{
+      width: 50%;
+      float: left;
+      display: block;
+      position: relative;
+      .hyphen1{
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        background-color: #efefef;
+        margin-top: 12%;
+      }
+      .hyphen2{
+        position: absolute;
+        width: 75px;
+        height: 1px;
+        background-color: #efefef;
+        margin-top: 12%;
+        right: 48%;
+      }
+      .hyphen3{
+        position: absolute;
+        width: 70px;
+        height: 1px;
+        background-color: #efefef;
+        top: 50%;
+        left: -2%;
+      }
+      .hyphen4{
+        position: absolute;
+        width: 125px;
+        height: 1px;
+        background-color: #efefef;
+        top: 50%;
+        right: 38%;
+      }
+      .hyphen5{
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        background-color: #efefef;
+        top: 50%;
+        right: 0;
+      }
+
+      &__item{
+        float: left;
+        display: block;
+        position: relative;
+        text-align: center;
+        width: 50%;
+        font-family: $ProximaSemibold;
+        span{
+          font-size: 100px;
+          color: #fecc53;
+        }
+        h4{
+          font-size: 18px;
+          color: #1f314b;
+          text-transform: uppercase;
+          margin: 0;
+        }
+      }
+
+    }
+  }
+  .overlay {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    background: #f4f4f4;
+  }
+}
