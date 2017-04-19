@@ -35,7 +35,7 @@ $(document).ready(function () {
             },
             600:{
                 items:1,
-                nav:false
+                nav:true
             },
             1000:{
                 items:1,
@@ -46,9 +46,9 @@ $(document).ready(function () {
     })
 
     /*header mobile menu*/
-    var pull = $('.hamburger'),//блок с кнопкой мобильного меню
+    var pull = $('#hamburger'),//блок с кнопкой мобильного меню
         menu = $('.mnu'),//главное меню
-        button = pull.find('.hamburger-box');//кнопка показать/скрыть
+        button = pull.find('span');//кнопка показать/скрыть
     menuHeight = menu.height();
 
     $(pull).on('click', function (e) {//при клике на мобильное меню
