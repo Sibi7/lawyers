@@ -42,8 +42,8 @@
 }
 
 @media only screen and (max-width: 770px) {
-  .services-one .overlay, .services-two {
-    display: block;
+  .services-one .overlay {
+    display: none!important;
   }
   .services-two__slider__text {
     float: none;
@@ -165,7 +165,7 @@
 
   // services-one
 
-  .services-one .overlay, .services-two {
+  .services-one .overlay{
     display: none;
   }
 
@@ -220,8 +220,11 @@
 
   // end services-one
 
-  .about .overlay, .contacts {
-    display: none;
+  .about .overlay{
+    display: none!important;
+  }
+  .contacts .overlay{
+    display: none!important;
   }
   .about__team-wrapper__item {
     width: 50%;
@@ -506,21 +509,21 @@
 //  services-two
 
   .services-one__crumbs {
-    padding: 0 20px;
+    padding: 0 0;
     box-sizing: border-box;
   }
 
 
   .services-one__content__list-l ul {
-    padding: 0 43px;
+    padding: 0 0;
     box-sizing: border-box;
   }
   .services-one__about-services-r {
-    padding: 0 20px;
+    padding: 0 0;
     box-sizing: border-box;
   }
   .services-one__content__list-r ul {
-    padding: 0 43px;
+    padding: 0 0;
     box-sizing: border-box;
   }
 
@@ -579,7 +582,7 @@
 
 //  about
 
-  .about .overlay, .contacts {
+  .about .overlay {
     display: none;
   }
   .about__team-wrapper__item {
@@ -597,6 +600,26 @@
   }
 
 // end about
+
+//  contacts
+
+  .contacts__wrapper {
+    height: 100%;
+  }
+  .contacts__wrapper__block {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .contacts__wrapper__block__item {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 0;
+  }
+// end contacts
+
 
 }
 
