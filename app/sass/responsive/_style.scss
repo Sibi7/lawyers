@@ -134,11 +134,69 @@
     position: relative;
     left: 34%;
   }
+
+  // services-one
+
+  .services-one .overlay, .services-two {
+    display: none;
+  }
+
+  .services-one__content__list-r {
+    width: 50%;
+  }
+  .services-one__content__list-l {
+    width: 50%;
+    padding-left: 0;
+  }
+  .services-one__about-services-l {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .services-one__about-services-r {
+    width: 100%;
+  }
+
+  .services-one__title {
+    text-align: center;
+  }
+
+  .form {
+    height: 100%;
+  }
+  .form__content {
+    width: 48%;
+    float: right;
+  }
+
+  .form__content button {
+    width: 275px;
+    display: block;
+    margin: 30px auto;
+  }
+  .form__text img {
+    margin: 97px 0 0 40px;
+  }
+  .form__text p {
+    margin: 97px 0 0;
+
+  }
+
+  .form__content input {
+    width: 275px;
+    margin: 30px auto;
+    display: block;
+  }
+
+  // end services-one
 }
 
 @media only screen and (max-width: 736px) {
-	
+  // services-one
+
+
+  // end services-one
 }
+
 
 @media only screen and (max-width: 567px) {
   .header__wrapper__logo {
@@ -344,7 +402,8 @@
 
   }
   .services-one__content__list-r ul{
-    margin-left: 13px;
+
+      margin-left: 0;
   }
 
   .services-one__about-services-l {
@@ -380,14 +439,37 @@
   }
 
   .form__text img {
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 13px;
   }
 
   .form__text p {
     font-size: 13px;
+    margin: 40px 0 0 10px;
   }
 
   // end service-one
+
+
+//  about
+
+  .about .overlay, .contacts {
+    display: none;
+  }
+  .about__team-wrapper__item {
+    width: 100%;
+  }
+.hyphen1, .hyphen2, .hyphen3, .hyphen4, .hyphen5{
+  display: none;
+}
+
+  .about__achievements__wrapper__item {
+    width: 100%;
+  }
+  .about__achievements__wrapper {
+    width: 100%;
+  }
+
+// end about
 
 }
 
